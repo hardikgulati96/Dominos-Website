@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="frontpage.css"/>
+        <script type="text/javascript" src="frontpage.js" ></script>
+    </head>
+    <body id="page">
+        
+                    <div id="header">
+                        <div  >
+                            <img src="images/logo.jpg" id="logo"/>
+                        </div>
+                        <div id="loginform">
+                            <form id="login">
+                                <div><input id="signup" type="button" value="Sign Up" onclick="openOverlay('up');" onscroll ="setOverlayHW()" /></div>
+                                <div><input id="signin" type="button" value="Sign In" onclick="openOverlay('in');" onscroll="setOverlayHW()" /> </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div id="mainbody">
+                        <div id="sidebar">
+                            <div id="simplyveg">
+                                Simply Veg
+                            </div>
+                            <div id="simplyvegmenu">
+                                <span id = "margherita"  onmouseover="changeDescPic('margherita');">Margherita</span>
+                            </div> 
+
+                            <div id="vegtreat">
+                                Veg Treat
+                            </div>
+                            <div id="vegtreatmenu">
+                                <span id="dcmargherita" onmouseover="changeDescPic('dcmargherita');"> Double Cheese Margherita</span><br/><br/>
+                                <span id="country-special" onmouseover="changeDescPic('country-special');">Country Special</span><br/><br/>
+                                <span id="farmhouse" onmouseover="changeDescPic('farmhouse');">Farmhouse</span><br/><br/>
+                                <span id = "spicy-triple-tango" onmouseover="changeDescPic('spicy-triple-tango');">Spicy Triple Tango</span><br/><br/>
+                            </div>  
+
+                            <div id="vegspecial">
+                                Veg Special
+                            </div>
+                            <div id="vegspecialmenu">
+                                <span id="peppy-paneer" onmouseover="changeDescPic('peppy-paneer');">Peppy Paneer</span><br/><br/>
+                                <span id="mexican-green-wave" onmouseover="changeDescPic('mexican-green-wave');">Mexican Green Wave</span><br/><br/>
+                                <span id="deluxe-veggie" onmouseover="changeDescPic('deluxe-veggie');">Deluxe Veggie</span><br/><br/>
+                                <span id="5-pepper" onmouseover="changeDescPic('5-pepper');">5 Pepper</span><br/><br/>
+                                <span id="veg-paradise" onmouseover="changeDescPic('veg-paradise');">Veggie Paradise</span><br/><br/>
+                            </div>  
+
+                            <div id="feastpizza">
+                                Feast Pizza
+                            </div>
+                            <div id="feastpizzamenu">
+                                <span id="veg-extravaganza" onmouseover="changeDescPic('veg-extravaganza');">Veg Extravaganza</span><br/><br/>
+                                <span id="cloud-9" onmouseover="changeDescPic('cloud-9');">Cloud 9</span><br/><br/>
+                                <span id="chefs-veg-wonder" onmouseover="changeDescPic('chefs-veg-wonder');">Chef's Veg Wonder</span><br/><br/>
+                            </div>  
+
+                            <div id="exoticitalianveg">
+                                Exotic Italian Veg
+                            </div>
+                            <div id="exoticitalianvegmenu">
+                                <span id="roman-veg" onmouseover="changeDescPic('roman-veg');">Roman Veg Supreme</span><br/><br/>
+                                <span id="milan-veg" onmouseover="changeDescPic('milan-veg');">Milan Veg Fantasy</span><br/><br/>
+                            </div> 
+                        </div>
+
+                        <div id="description">
+
+                            <div id="pizzapic">
+                                <img id="pic" src="images/margherita.jpg"/>
+                            </div>
+
+                            <div id="pizzadesc">
+
+                                <span id="name">MARGHERITA
+                                </span>
+                                <br/><br/>
+                                <span id="desc">      A hugely popular margherita, with a deliciously tangy single cheese topping.
+                                </span>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id='footer'>
+
+                    </div>
+        <div id="overlay">
+                   
+                   <div id="overlayWindow">
+                      
+
+                             <div id="overlaySignup">
+                                 <div class="heading" id="headingUp">
+                                     Sign Up
+                                    
+                                 </div> 
+                                 
+                                 <div id="formUp">
+                                     <form action="signup.php">
+                                         <input  class ="textInput" type="text" name="name" placeholder="Name">
+                                         <br/><br/>
+                                         <input  class ="textInput" type="text" name="n" placeholder="Username">
+                                         <br/><br/>
+                                         <input  class ="textInput" type="password" name="p" placeholder="Password">
+                                         <br/><br/>
+                                         <input  class ="textInput" type="password" name="pd" placeholder="Confirm Password">
+                                         <br/><br/>
+                                         <input class ="textInput" type="text" name="phone" placeholder="Phone">
+                                         <br/><br/>
+                                         <input class ="textInput" type="text" name="hno" placeholder="House Number">
+                                         <br/><br/>
+                                         <input class ="textInput" type="text" name="sno" placeholder="Street Name">
+                                         <br/><br/>
+                                         <input class ="textInput" type="text" name="city" placeholder="City">
+                                         <br/><br/>
+                                         <input class ="textInput" type="text" name="pin" placeholder="Pincode">
+                                         <br/><br/>
+                                          <input class="submit" type="submit" value="Sign Up">
+                                         <input class="close" type="button" value="Close" onclick="closeOverlay();">
+                                     </form>
+                                 </div>
+                                 
+                             </div>
+
+                             <div id="overlaySignin">
+                                 <div class="heading" id="headingIn">
+                                     Sign In
+                                 </div>
+                                 
+                                 <div id="formIn">
+                                  <form action="signin.php" method="post">
+                                         <input class ="textInput" type="text" name="name" placeholder="Username">
+                                         <br/><br/><br/>
+                                         <input class ="textInput" type="password" name="pwd" placeholder="Password">
+                                         <br/><br/><br/><br/>
+                                         <input class="submit" type="submit" value="Sign In">
+                                         <input class="close" type="button" value="Close" onclick="closeOverlay();">
+                                     </form>
+                                 </div>
+                                 
+                             </div>
+                   </div>
+        </div>
+    </body>
+</html>
+<?php
+session_start();
+if($_SESSION['login']==1)
+{
+
+echo $_SESSION['userName'];
+header('Location: https://www.facebook.com');
+}
+?>

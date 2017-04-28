@@ -1,0 +1,539 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 12, 2015, 11:27:22 PM
+    Author     : bhatiadivij
+*/
+
+#header
+{
+    position: fixed;
+    top :0px;
+    left : 0px;
+    width : 100%;
+    height : 100px;
+    box-shadow: 0px 2px 10px grey;
+    z-index:1000;
+    background-color: rgb(255,255,255);
+    
+}
+
+#logo
+{
+    position: absolute;
+    top :0px;
+    left : 0px;
+    width : 300px;
+    height : 100px;
+    
+    
+}
+
+#loginform
+{
+    position: absolute;
+    top :0px;
+    left : 60%;
+    
+}
+
+/*#uname
+{
+    position: absolute;
+    top :20px;
+    left : 30px;
+    width : 100px;
+   font-family: cursive;
+}
+
+#pass
+{
+    position: absolute;
+    top :20px;
+    left : 200px; 
+    width : 100px;
+    font-family: cursive;
+}
+
+
+
+.textu
+{
+     position: absolute;
+    top :50px;
+    left : 30px;
+    width : 150px;
+    height : 25px;
+    box-shadow: 0px 1px 2px grey inset;
+}
+
+.textp
+{
+     position: absolute;
+    top :50px;
+    left : 200px;
+    width : 150px;
+    height : 25px;
+    box-shadow: 0px 1px 2px grey inset;
+}*/
+
+#signup
+{
+   position : absolute;
+   top : 25px;
+   left : 150px;
+   height: 50px;
+   width : 75px;
+   font-family: cursive;
+   color:white;
+   font-size: 15px;
+   font-weight: bold;
+   background-color: rgb(0,120,173);
+   box-shadow: 0px 1px 2px grey inset;
+   
+
+}
+#signin
+{
+   position : absolute;
+   top : 25px;
+   left : 250px;
+   height: 50px;
+   width : 75px;
+   font-family: cursive;
+   color:white;
+   font-size: 15px;
+   font-weight: bold;
+   background-color:rgb(228,25,55);
+   box-shadow: 0px 1px 2px grey inset;
+   
+
+}
+
+#signup:hover
+{
+    box-shadow: -2px 2px 10px grey ;
+    text-shadow: 0 -1px 1px #3275bc;
+}
+
+#signin:hover
+{
+    box-shadow: -2px 2px 10px grey ; 
+    text-shadow: 0 -1px 1px #3275bc;
+}
+
+body
+{
+    background-color: rgb(235,233,233);
+}
+
+#mainbody
+{
+    position: absolute;
+    top:120px;
+    left:10%;
+    right:10%;
+    height:820px;
+    background-color: rgb(255,255,255);
+    box-shadow: 0px 1px 2px grey;
+}
+
+#sidebar
+{
+    position: absolute;
+    left : 10px;
+    top: 10px;    
+}
+
+#simplyveg
+{
+    position: absolute;
+    top: 15px;
+    background-color: rgb(0,120,173);
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 34px;
+    width:250px;
+    height:35px;
+    font-size: 20px;
+    cursor:default; 
+}
+
+#simplyvegmenu
+{
+    position: absolute;
+    top: 65px;
+    color: rgb(228,25,55);
+    text-align: center;
+    width:250px;
+    height:35px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#vegtreat
+{
+    position: absolute;
+    top: 100px;
+    background-color: rgb(0,120,173);
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 34px;
+    width:250px;
+    height:35px;
+    font-size: 20px;
+    cursor:default; 
+    
+}
+
+#vegtreatmenu
+{
+    position: absolute;
+    top: 150px;
+    color: rgb(228,25,55);
+    text-align: center;
+    width:250px;
+    height:35px;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+#vegspecial
+{
+    position: absolute;
+    top: 290px;
+    background-color: rgb(0,120,173);
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 34px;
+    width:250px;
+    height:35px;
+    font-size: 20px;
+}
+
+#vegspecialmenu
+{
+    position: absolute;
+    top: 340px;
+    color: rgb(228,25,55);
+    text-align: center;
+    width:250px;
+    height:35px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor:default; 
+}
+
+#feastpizza
+{
+    position: absolute;
+    top: 520px;
+    background-color: rgb(0,120,173);
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 34px;
+    width:250px;
+    height:35px;
+    font-size: 20px;
+    cursor:default; 
+}
+
+#feastpizzamenu
+{
+    position: absolute;
+    top: 570px;
+    color: rgb(228,25,55);
+    text-align: center;
+    width:250px;
+    height:35px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#exoticitalianveg
+{
+    position: absolute;
+    top: 680px;
+    background-color: rgb(0,120,173);
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 34px;
+    width:250px;
+    height:35px;
+    font-size: 20px;
+    cursor:default; 
+}
+
+#exoticitalianvegmenu
+{
+    position: absolute;
+    top: 730px;
+    color: rgb(228,25,55);
+    text-align: center;
+    width:250px;
+    height:35px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+span:hover
+{
+    color:rgb(0,64,128);
+    font-size: 18px;
+     cursor:pointer;
+}
+
+#pic
+{
+    position: absolute;
+    left:400px;
+    top: 20px;
+    height:448px;
+    width : 647px;
+    right:15px;
+}
+
+#supsubmit
+{
+    position:absolute;
+    top:490px;
+    left:50px;
+    
+    display:none;
+    
+}
+#supclose
+{
+    position:absolute;
+    top:490px;
+    left:200px;
+    /*right:20px;*/
+    
+}
+#pizzadesc
+{
+    position: absolute;
+    left:440px;
+    top: 530px;
+    right:15px;
+    height:448px;
+    width : 600px;
+}
+
+#name
+{
+    color:rgb(0,120,173);
+    font-size: 30px;
+    font-weight:bold;
+}
+.error
+{
+    position:absolute;
+    color:red;
+    font-size: 12px;
+    font-family: serif;
+    font-width:bold;
+    z-index: 100000;
+    width:120px;
+    
+}
+.error:hover
+{
+    
+}
+#desc
+{
+     color: rgb(228,25,55);
+     position: absolute;
+     //left:25px;
+     font-size: 20px;
+     font-weight:bold;
+}
+#footer
+{
+    position: absolute;
+    top:960px;
+    left:0px;
+    right:0px;
+    height:80px;
+    background-color: rgb(255,255,255);
+    border-top-style: solid;
+    border-top-color: rgb(183,176,174);
+    border-top-width: 1px;
+}
+
+#overlay
+{
+    height: 1100px;
+    width : 100%;
+    position:fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(0,0,0,0.65);
+    z-index: 1000;
+    display:none;
+}
+
+#overlayWindow
+{
+    height: 450px;
+    width : 600px;
+    position:fixed;
+    left: 375px;
+    top: 60px;
+    right: 200px;
+    background-color:white;
+    border-radius: 5px;
+    
+}
+
+
+
+.heading
+{
+    position : absolute;
+    top : 10px;
+    left:20px;
+    height:25px;
+    width:100px;
+    alignment-adjust: central;
+    
+     
+    text-shadow: 0 1px 1px grey;
+    
+}
+
+#headingUp
+{
+    width:580px;
+    height:40px;
+    position : absolute ;
+    top:10px;
+    left:10px;
+    right:10px;
+    text-align: center;
+    font-family: "Comic Sans MS";
+    font-weight: bold;
+    font-size: 22px;
+    background-color: rgb(0,0,206);
+    color:white;
+      box-shadow: 2px 2px 1px grey;
+       border-radius: 5px;
+}
+
+#headingIn
+{width:580px;
+    height:40px;
+    position : absolute ;
+    top:10px;
+    left:10px;
+    right:10px;
+    text-align: center;
+    font-family: "Comic Sans MS";
+    font-weight: bold;
+    font-size: 22px;
+    background-color:rgb(228,25,55);
+    color:white;
+     box-shadow: 2px 2px 1px grey;
+      border-radius: 5px;
+}
+
+
+
+#overlaySignup
+{
+    
+    display:none;
+}
+
+#overlaySignin
+{
+    display:none;
+    
+}
+
+#formIn
+{
+    position :absolute;
+    top:100px;
+    left:140px;
+}
+
+#formUp
+{
+   position :absolute;
+    top:80px;
+    left:120px;
+    
+}
+
+.textInput
+{
+    background-color: white;
+    border:solid 1px black ;
+    border-radius: 5px;
+    color: black;
+    height: 28px;
+    padding-left:10px;
+    width: 300px;
+    box-shadow: 0px 1px 1px grey inset;
+
+    
+}
+
+.submit
+{
+     position : relative;
+   top : 3px;
+   left : 30px;
+   height: 35px;
+   width : 84px;
+   font-family: cursive;
+   color:white;
+   font-size: 18px;
+   font-weight: bold;
+   background-color: rgb(0,120,173);
+   box-shadow: 0px 1px 2px grey inset;
+    border-radius: 5px;
+    
+}
+
+.close
+{
+   position : relative;
+   top : 3px;
+   left : 120px;
+   height: 35px;
+   width : 80px;
+   font-family: cursive;
+   color:white;
+   font-size: 18px;
+   font-weight: bold;
+   background-color:rgb(228,25,55);
+   box-shadow: 0px 1px 2px grey inset;
+    border-radius: 5px;
+    
+}
+
+.submit:hover
+{
+    box-shadow: -2px 2px 10px grey ;
+    text-shadow: 0 -1px 1px #3275bc;
+}
+
+.close:hover
+{
+    box-shadow: -2px 2px 10px grey ; 
+    text-shadow: 0 -1px 1px #3275bc;
+}

@@ -1,0 +1,665 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 10, 2015, 9:04:58 AM
+    Author     : bhatiadivij
+*/
+
+@font-face {
+     font-family: andalus;
+     src: url(andlso.ttf);
+     
+ }
+
+::selection {
+       //color: black;
+       background-color: transparent;
+}
+ 
+#header
+{
+    position: fixed;
+    top :0px;
+    left : 0px;
+    width : 100%;
+    height : 100px;
+    box-shadow: 0px 2px 10px grey;
+    z-index:1000;
+    background-color: rgb(255,255,255);
+    
+}
+
+#logo
+{
+    position: absolute;
+    top :0px;
+    left : 0px;
+    width : 300px;
+    height : 100px;
+    
+}
+
+#cart
+{
+    position:absolute;
+    top:20px;
+    right:120px;
+    height:50px;
+    width:50px;
+    
+}
+
+body
+{
+    background-color: rgb(235,233,233);
+}
+
+.titlecss
+{
+    position:absolute;
+    top:270px;
+    left:50px;
+    height:28px;
+    width:300px;
+    transform: rotate(270deg);
+    text-indent: 12px;
+    font-size: 18px;
+    font-family: "Comic Sans MS";
+    
+}
+#titlesv
+{
+    
+    background-color:rgb(253,196,0);
+    color:white;//rgb(166,126,0);
+}
+
+
+
+#sv1
+{
+    height:300px;
+    width:950px;
+    background-color:white;
+    position: absolute;
+    top:134px;
+    left:220px;
+   // box-shadow: 0px 1px 2px grey;
+    border: solid 1px rgb(197,197,197);
+}
+#titlevt
+{
+   
+    background-color:red;
+    color:white;//rgb(166,126,0);
+}
+#vegtreat1
+{
+    position:relative;
+    top:330px;
+    left:-6px;
+}
+
+#vegtreat2
+{
+    position:relative;
+    top:660px;
+    left:-6px;
+}
+
+#vegtreat3
+{
+    position:relative;
+    top:990px;
+    left:-6px;
+}
+
+#vegtreat4
+{
+    position:relative;
+    top:1320px;
+    left:-6px;
+}
+#titlevs
+{
+     
+    background-color:#00cc00;
+    color:white;//rgb(166,126,0);
+}
+
+#vegspcl1
+{
+     position:relative;
+    top:1650px;
+    left:-6px;
+}
+#vegspcl2
+{
+     position:relative;
+    top:1980px;
+    left:-6px;
+}
+#vegspcl3
+{
+     position:relative;
+    top:2310px;
+    left:-6px;
+}
+#vegspcl4
+{
+     position:relative;
+    top:2640px;
+    left:-6px;
+}
+#vegspcl5
+{
+     position:relative;
+    top:2970px;
+    left:-6px;
+}
+
+#titleex
+{
+     
+    background-color:#0000cc;
+    color:white;//rgb(166,126,0);
+}
+
+#exotic1
+{
+   position:relative;
+    top:3300px;
+    left:-6px; 
+}
+
+#exotic2
+{
+   position:relative;
+    top:3630px;
+    left:-6px; 
+}
+
+#titlefp
+{
+    background-color:#660066;
+    color:white;//rgb(166,126,0);
+    
+}
+
+#feastpizza1
+{
+   position:relative;
+    top:3960px;
+    left:-6px; 
+}
+#feastpizza2
+{
+   position:relative;
+    top:4290px;
+    left:-6px; 
+}
+#feastpizza3
+{
+   position:relative;
+    top:4620px;
+    left:-6px; 
+}
+
+
+#sv1pic
+{
+    position:absolute;
+    top:15px;
+    bottom:20px;
+    left:35px;
+    height:160px;
+    width:195px;
+    
+    
+}
+
+#pizzadesc
+{
+    position : absolute;
+    top:185px;
+    left:25px;
+    bottom: 10px;
+    display:inline;
+    width:220px;
+    text-align:center;
+    color:chocolate;
+    font-family: andalus;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+#verticalline
+{
+    position:absolute;
+    top:20px;
+    bottom:20px;
+    left:280px;
+    border: solid 1px rgb(197,197,197);
+    height:260px;
+    width:0px;
+    
+    
+}
+
+.svcrust
+{
+    position:absolute;
+    top:20px;
+    bottom:20px;
+    left:300px; 
+    right:30px;
+    display:inline;
+}
+
+.crust
+{
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    
+    
+}
+
+#svspan
+{
+    color: rgb(236,192,19);
+    
+}
+
+#cht
+{
+    position: absolute;
+    top:50px;
+    left:20px;
+    width : 250px;
+    height:40px;
+    //border: solid 1px indigo;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+
+#cb
+{
+     position: absolute;
+    top:50px;
+    left:290px;
+    width : 250px;
+    height:40px;
+    //border: solid 0px indigo;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+
+#ic
+{
+    position: absolute;
+    top:110px;
+    left:20px;
+    width : 250px;
+    height:40px;
+    //border: solid 0px indigo;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+
+#fpp
+{
+     position: absolute;
+    top:110px;
+    left:290px;
+    width : 250px;
+    height:40px;
+   //border: solid 0px indigo;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+
+#wtc
+{
+    position: absolute;
+    top:170px;
+    left:20px;
+    width : 250px;
+    height:40px;
+    //border: solid 0px indigo;
+    border-radius: 5px;
+    vertical-align: middle;
+    
+}
+
+.inputrad
+{
+    position:relative;
+    top:-8px;
+}
+.ptype
+{
+    position:relative;
+    top:3px;
+}
+
+.ptypedesc
+{
+   position:relative;
+    top:-10px; 
+    color: crimson;
+    font-family: "AR CENA";
+    font-size: 20px;
+    
+}
+
+
+
+#next
+{
+    background-color: indigo;
+    color:white;
+    width:80px;
+    height:28px;
+    text-align: center;
+    font-family: "Comic Sans MS";
+    font-size: 18px;
+    position: absolute;
+    bottom:15px;
+    right:30px;
+    
+}
+
+#next:hover
+{
+    color:indigo;
+    background-color: white;
+    border:solid 0.5px #cccccc;
+    box-shadow: 2px 2px 10px grey;
+    cursor: pointer;
+}
+
+.svtopping
+{
+     position:absolute;
+    top:20px;
+    bottom:20px;
+    left:300px; 
+    right:30px;
+    display:none;
+}
+
+#tomato
+{
+     position:absolute;
+     top:40px;
+     left:20px; 
+       
+}
+
+#corn
+{
+     position:absolute;
+     top:40px;
+     left:190px; 
+    
+}
+
+#capsi
+{
+     position:absolute;
+     top:40px;
+     left:390px; 
+    
+}
+
+#mushroom
+{
+     position:absolute;
+     top:90px;
+     left:20px; 
+       
+}
+
+#olive
+{
+     position:absolute;
+     top:90px;
+     left:190px; 
+    
+}
+
+#onion
+{
+     position:absolute;
+     top:90px;
+     left:390px; 
+    
+}
+
+#paneer
+{
+     position:absolute;
+     top:140px;
+     left:20px; 
+       
+}
+
+#paparika
+{
+     position:absolute;
+     top:140px;
+     left:190px; 
+    
+}
+
+
+#prev
+{
+    background-color: crimson;
+    color:white;
+    width:110px;
+    height:28px;
+    text-align: center;
+    font-family: "Comic Sans MS";
+    font-size: 18px;
+    position: absolute;
+    bottom:15px;
+    right:130px;
+    
+}
+
+#prev:hover
+{
+    color:crimson;
+    background-color: white;
+    border:solid 0.5px #cccccc;
+    box-shadow: 2px 2px 10px grey;
+    cursor: pointer;
+    
+}
+
+.svqty
+{
+     position:absolute;
+    top:20px;
+    bottom:20px;
+    left:300px; 
+    right:30px;
+    display:none;
+}
+.qty
+{
+    height:50px;
+    width:50px;
+    
+    border-radius: 10px;
+    text-align: center;
+/*    vertical-align: middle;*/
+    font-family: "Comic Sans MS";
+    font-size: 40px;
+}
+
+#minus
+{
+    color:darkblue;
+    background-color: white;
+    border:solid 3px darkblue;
+    position: absolute;
+    top:70px;
+    left:70px;
+}
+#value
+{
+    color:white;
+    background-color: darkblue;
+     border:solid 3px darkblue;
+    position: absolute;
+    top:70px;
+    left:130px;
+    font-size: 35px;
+}
+
+#plus
+{
+    color:darkblue;
+    background-color: white;
+    border:solid 3px darkblue;
+    position: absolute;
+    top:70px;
+    left:190px;
+
+}
+
+.s
+{
+    position: relative;
+    top:-3px;
+
+}
+.s1
+{
+    position: relative;
+    top:-8px;
+/*    left:-10px;*/
+}
+
+#plus:hover,#minus:hover
+{
+    
+    box-shadow: 2px 3px 10px grey;
+    cursor:pointer;
+ 
+}
+
+#addcart
+{
+    background-color: indigo;
+    color:white;
+    width:120px;
+    height:28px;
+    text-align: center;
+    font-family: "Comic Sans MS";
+    font-size: 18px;
+    position: absolute;
+    bottom:15px;
+    right:1px;
+    
+}
+
+#addcart:hover
+{
+    color:indigo;
+    background-color: white;
+    border:solid 0.5px #cccccc;
+    box-shadow: 2px 2px 10px grey;
+    
+}
+
+.svqty select
+{
+    position:absolute;
+    top: 54px;
+    left:185px;
+    height:30px;
+    width:100px;
+    border-radius: 5px;
+    border-color: #000066;
+    background-color: transparent;
+    font-family: "AR CENA";
+    color:crimson;
+    font-size:25px;
+    padding-bottom: 5px;
+    
+    
+}
+
+.svqty label
+{
+    
+     position:absolute;
+    top: 50px;
+    left:70px;
+    height:30px;
+    
+   color:crimson;
+    font-family: "AR CENA";
+    font-size:30px;
+}
+
+#size
+{
+   position:absolute;
+    top: 110px;
+    left:70px; 
+    color:crimson;
+    font-family: "AR CENA";
+    font-size:30px;
+}
+
+.size
+{
+    color:rgb(255,192,19);
+    font-family: "AR CENA";
+    font-size:30px;
+    
+}
+
+#small
+{
+    position:absolute;
+    top: 110px;
+    left:185px; 
+}
+
+#medium
+{
+    position:absolute;
+    top: 110px;
+    left:290px; 
+}
+
+#large
+{
+    position:absolute;
+    top: 110px;
+    left:420px; 
+}
+
+#footer
+{
+    position: absolute;
+    top:5100px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    height:80px;
+    background-color: rgb(255,255,255);
+    border-top-style: solid;
+    border-top-color: rgb(183,176,174);
+    border-top-width: 1px;
+}
+
+
